@@ -1,12 +1,14 @@
 import React from 'react'
 import Header from './sections/Header'
 import Hero from './sections/Hero'
+import About from './sections/About'
 
 const Carousel = () => {
     return (
-        <div className='mx-[80px]'>
+        <div className=''>
             <Header />
-            <Hero/>
+            <Hero />
+            <About />
         </div>
     )
 }

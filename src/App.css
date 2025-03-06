@@ -1,8 +1,25 @@
 @import "tailwindcss";
 
-body{
-    background-color: #063835;
+.russo-one-regular {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-.constainers{
+
+body {
+    background-color: #063835;
+    background-image: url("./assets/images/vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.constainers {
     padding: 0 80px;
+}
+
+.hero {
+    background-image: url("./assets/images/power.png");
+    background-repeat: no-repeat;
+    background-position: top right;
 }

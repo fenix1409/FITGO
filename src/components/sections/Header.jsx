@@ -1,5 +1,5 @@
 import React from 'react'
-import { href, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import { Logo } from '../../assets/Icons'
 import Button from '../ui/Button'
 
@@ -32,7 +32,7 @@ const Header = () => {
         },
     ]
     return (
-        <header className='py-5 flex items-center justify-between'>
+        <header className='py-5 flex items-center justify-between mx-[80px]'>
             <Link to={'/'}><Logo /></Link>
             <ul className='flex items-center gap-[40px]'>
                 {items.map(item => (
